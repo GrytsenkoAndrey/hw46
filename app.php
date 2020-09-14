@@ -6,4 +6,5 @@ $app = new \Symfony\Component\Console\Application('Say hello application');
 
 $app->add(new \App\SayHello());
 $app->add(new \App\SayHelloTimes());
+$app->add(new \App\SayHelloIt());
 $app->run();
